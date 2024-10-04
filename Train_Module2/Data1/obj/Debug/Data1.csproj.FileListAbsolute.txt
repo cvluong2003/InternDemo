@@ -1,0 +1,12 @@
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\Data1.dll.config
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\Data1.dll
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\Data1.pdb
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\EntityFramework.dll
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\EntityFramework.xml
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\obj\Debug\Data1.csproj.AssemblyReference.cache
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\obj\Debug\Data1.csproj.CoreCompileInputs.cache
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\obj\Debug\Data1.csproj.Up2Date
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\obj\Debug\Data1.dll
+C:\Users\luong.cao\Intern\Train_Module_2\Train_Module2\Data1\obj\Debug\Data1.pdb
