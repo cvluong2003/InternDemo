@@ -1,0 +1,6 @@
+@TrainModule2_New_HostAddress = http://localhost:5178
+
+GET {{TrainModule2_New_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
