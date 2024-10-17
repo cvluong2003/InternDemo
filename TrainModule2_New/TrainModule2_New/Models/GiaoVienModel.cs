@@ -9,6 +9,7 @@ namespace TrainModule2_New.Models
     {
         Task<string> loggin(string ma);
         Task<bool> Register(GiaoVienDTO dto);
+        Task<string> changePassWord(string ma, string new_pass);
     }
     public class GiaoVienModel:IGiaoVienModel
     {
@@ -53,6 +54,28 @@ namespace TrainModule2_New.Models
                 catch 
                 {
                     return false;
+                }
+            }
+        }
+        public async Task<string> changePassWord(string ma,string new_pass)
+        {
+            var gv=await _context.Giaoviens.FindAsync(ma);
+            if(gv == null)
+            {
+                return "404" ;
+
+            }
+            else
+            {
+                try
+                {
+                    gv.Pass = new_pass;
+                    await _context.SaveChangesAsync();
+                    return "204";
+                }
+                catch(Exception ex) 
+                {
+                    return ex.Message ;
                 }
             }
         }

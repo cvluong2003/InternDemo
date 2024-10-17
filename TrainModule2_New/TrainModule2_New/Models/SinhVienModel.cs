@@ -66,14 +66,14 @@ namespace TrainModule2_New.Models
             }
             else
             {
-                var dssv = await _context.Sinhviens.Where(sv => sv.Masv == classcode).ToListAsync();
+                var dssv = await _context.Sinhviens.Where(sv => sv.Malop == classcode).ToListAsync();
                 var dssvDTO=_map.Map<List<SinhVienDTO>>(dssv);
                 return dssvDTO;
             }
         }
         public async Task<string> PutSinhVienByID(string id, SinhVienDTO sv)
         {
-            if (id == null)
+             if (id == null)
             {
                 return "NotFound()";
             }
@@ -85,10 +85,11 @@ namespace TrainModule2_New.Models
                 }
                 else
                 {
-                  
-                    _context.Entry(sv).State = EntityState.Modified;
+                    var sv1=_map.Map<SINHVIEN>(sv);
+                    _context.Entry(sv1).State = EntityState.Modified;
                     try
                     {
+                      
                         await _context.SaveChangesAsync();
                     }
                     catch (Exception ex)

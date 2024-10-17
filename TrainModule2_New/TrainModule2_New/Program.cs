@@ -20,7 +20,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton(new TokenService("cao_van_luong_soai_ca_tien_giang_huit_token_key", 2));
+builder.Services.AddSingleton(new TokenService("cao_van_luong_soai_ca_tien_giang_huit_token_key", 10));
 builder.Services.AddValidatorsFromAssemblyContaining<StudentDTOValidator>();
 builder.Services.AddScoped<ISinhVienService, SinhVienService>();
 builder.Services.AddScoped<IGiaoVienService, GiaoVienService>();
@@ -36,6 +36,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // Chỉ định authentication scheme mặc định
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; // Chỉ định challenge scheme mặc định
 })
+
   .AddJwtBearer(options =>
   {
       options.TokenValidationParameters = new TokenValidationParameters
@@ -45,12 +46,11 @@ builder.Services.AddAuthentication(options =>
           ValidateLifetime = true,
           ValidateIssuerSigningKey = true,
           IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("cao_van_luong_soai_ca_tien_giang_huit_token_key")),
-          ClockSkew = TimeSpan.Zero // Không có độ trễ cho thời gian hết hạn
+          ClockSkew = TimeSpan.Zero 
       };
   });
+builder.Services.AddLogging(login => { login.AddConsole(); });
 var app = builder.Build();
-
-//app.UseMiddleware<CheckSerectCodeMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -60,8 +60,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<CheckSerectCodeMiddleware>();
+app.UseMiddleware<RequestLogginMiddleWare>();
 
 app.MapControllers();
 

@@ -6,7 +6,7 @@
 
         public string? tensv { get; set; }
 
-        public int? namsinh { get; set; }
+        public string namsinh { get; set; }
 
         public string? diachi { get; set; }
 

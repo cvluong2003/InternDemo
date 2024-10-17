@@ -3,12 +3,15 @@
     public class CheckSerectCodeMiddleware
     {
         public readonly RequestDelegate _next;
-        public CheckSerectCodeMiddleware(RequestDelegate next)
+        public readonly ILogger _logger;
+        public CheckSerectCodeMiddleware(RequestDelegate next, ILogger<CheckSerectCodeMiddleware> logger)
         {
              _next = next;  
+            _logger = logger;
         }
         public async Task Invoke(HttpContext context)
         {
+            _logger.LogInformation("SerectCodeMiddleWare[Before]");
             if (!context.Request.Headers.ContainsKey("Serect-code") || string.IsNullOrEmpty(context.Request.Headers["Serect-code"]))
                 {
                 context.Response.StatusCode=StatusCodes.Status400BadRequest;
@@ -16,6 +19,7 @@
                 return;     
             }
             await _next(context);
+            _logger.LogInformation("SerectCodeMiddleWare[After]");
         }
     }
 }

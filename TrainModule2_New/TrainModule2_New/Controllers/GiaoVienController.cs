@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using TrainModule2_New.DTOs;
 using TrainModule2_New.Services;
+using System.IO;
 namespace TrainModule2_New.Controllers
 {
     [Route("api/[controller]")]
@@ -18,7 +20,7 @@ namespace TrainModule2_New.Controllers
             _giaoVienService = giaoVienService;
             _tokenService=tokenService;
         }
-        [HttpGet] 
+        [HttpPost("login")] 
         public async Task<ActionResult> Login([FromBody] GiaoVienDTO dto)
         {
            if(dto==null)
@@ -41,8 +43,8 @@ namespace TrainModule2_New.Controllers
                 }
             }
         }
-        [HttpPost]
-        [Authorize]
+        [HttpPost("register")]
+        //[Authorize]
         public async Task<ActionResult<GiaoVienDTO>> Register([FromBody] GiaoVienDTO dto)
         {
           
@@ -61,6 +63,39 @@ namespace TrainModule2_New.Controllers
                     return BadRequest();
                 }
             }
+        }
+        [Authorize]
+        [HttpPatch("{id}")]
+        public async Task<ActionResult> changepassword( string id,[FromBody] ChangePassWordRequest jdoc)
+        {
+        
+               if(jdoc==null||jdoc.newpass==null||jdoc.oldpass==null ||jdoc.newpass==jdoc.oldpass)
+            {
+                return BadRequest();
+            }
+                string result =await _giaoVienService.changePassWord(id,  jdoc.oldpass, jdoc.newpass);
+                switch (result)
+                {
+                    case "404":
+                        {
+                            return NotFound();
+                        }
+                    case "204":
+                        {
+                            return NoContent();
+
+                        }
+                    case "400":
+                        {
+                            return BadRequest();
+                        }
+                    default:
+                        {
+                            return StatusCode(500,result);  
+                        }
+                }
+               
+            
         }
     }
 }

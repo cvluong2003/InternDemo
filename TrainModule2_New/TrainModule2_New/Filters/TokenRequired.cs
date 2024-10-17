@@ -14,5 +14,14 @@ namespace TrainModule2_New.Filters
 
             base.OnActionExecuting(context);
         }
+        public override void OnResultExecuting(ResultExecutingContext context)
+        {
+            var str = "Please send your \"token\" field in  header and it's value ";
+            if (context.Result == Results.Unauthorized())
+            {
+                context.Result = new ObjectResult((object)str);
+            }
+            context.Result = new UnauthorizedResult();
+        }
     }
 }

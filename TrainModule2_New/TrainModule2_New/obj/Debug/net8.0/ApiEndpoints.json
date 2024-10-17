@@ -1,9 +1,30 @@
 [
   {
     "ContainingType": "TrainModule2_New.Controllers.GiaoVienController",
+    "Method": "changepassword",
+    "RelativePath": "api/GiaoVien/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "jdoc",
+        "Type": "TrainModule2_New.DTOs.ChangePassWordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainModule2_New.Controllers.GiaoVienController",
     "Method": "Login",
-    "RelativePath": "api/GiaoVien",
-    "HttpMethod": "GET",
+    "RelativePath": "api/GiaoVien/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -18,7 +39,7 @@
   {
     "ContainingType": "TrainModule2_New.Controllers.GiaoVienController",
     "Method": "Register",
-    "RelativePath": "api/GiaoVien",
+    "RelativePath": "api/GiaoVien/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

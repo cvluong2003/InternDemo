@@ -1,0 +1,14 @@
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\bin\Debug\net8.0\DTO.exe
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\bin\Debug\net8.0\DTO.deps.json
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\bin\Debug\net8.0\DTO.runtimeconfig.json
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\bin\Debug\net8.0\DTO.dll
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\bin\Debug\net8.0\DTO.pdb
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.dll
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\refint\DTO.dll
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.pdb
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\DTO.genruntimeconfig.cache
+C:\Users\luong.cao\source\repos\TrainModule2_New\DTO\obj\Debug\net8.0\ref\DTO.dll

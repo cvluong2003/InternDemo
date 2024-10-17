@@ -17,6 +17,7 @@ namespace TrainModule2_New.Services
         Task<string> PutSinhVienByID(string id, SinhVienDTO sv);
         Task<bool> deleteSinhVienByID(int id);
         Task<bool> patchSinhVienByID(int id, JsonPatchDocument<SinhVienDTO> jdoc);
+        ValidationResult CheckPatchSinhVien(JsonPatchDocument<SinhVienDTO> sv);
     }
     public class SinhVienService:ISinhVienService
     {
@@ -43,10 +44,23 @@ namespace TrainModule2_New.Services
         {
             return _validator.Validate(sv);
         }
+        public ValidationResult CheckPatchSinhVien(JsonPatchDocument<SinhVienDTO> sv)
+        {
+            SinhVienDTO dTO = new SinhVienDTO();
+            sv.ApplyTo(dTO);
+            dTO.masv = "00";
+            dTO.tensv = "Default";
+            if(dTO.namsinh==null)
+            {
+                return new ValidationResult();
+            }
+            return _validator.Validate(dTO);
+        }
         public async Task<List<SinhVienDTO>> getSinhVienByClassCode(string classcode)
         {
             return await _model.GetSinhVienByClassCode(classcode);
         }
+
         public async Task<string> PutSinhVienByID(string id, SinhVienDTO sv)
         {
             return await _model.PutSinhVienByID(id, sv);   

@@ -12,6 +12,7 @@ namespace TrainModule2_New.Services
     {
         Task<bool> loggin(string ma,string pass);
         Task<bool> Register(GiaoVienDTO dto);
+        Task<string> changePassWord(string ma, string old_pass, string new_pass);
     }
 
     public class GiaoVienService:IGiaoVienService
@@ -95,6 +96,19 @@ namespace TrainModule2_New.Services
                 //int a =compare.Where(x => x==true).Count();
                 //int b = a;
                 //return bytes.SequenceEqual(hashpass.Take(20).Skip(16));
+            }
+            
+        }
+        public async Task<string> changePassWord(string ma ,string old_pass,string new_pass)
+        {
+            var verify= verifyPassword(old_pass,await _model.loggin(ma));
+            if(verify) 
+                {
+                    return await _model.changePassWord(ma,hashPassWord(new_pass));
+                }
+            else
+            {
+                return "400";
             }
         }
     }

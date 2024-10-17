@@ -1,12 +1,13 @@
 ﻿
 using Data.EntityModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using TrainModule2_New.DTOs;
-
+using TrainModule2_New.Validator;
 using TrainModule2_New.Filters;
 using TrainModule2_New.Services;
 namespace TrainModule2_New.Controllers
@@ -40,6 +41,7 @@ namespace TrainModule2_New.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<SinhVienDTO>> CreateNewSV(SinhVienDTO sv)
         {
             var check = _sinhVienService.CheckSaveSinhVien(sv);
@@ -69,11 +71,20 @@ namespace TrainModule2_New.Controllers
             }
         }
         [HttpPut("{id}")]
-        [TokenRequired]
+        //[TokenRequired]
+        //[Authorize]
         public async Task<ActionResult<SinhVienDTO>> UpdateStudentByID(string id, [FromBody] SinhVienDTO sv)
         {
-           var result=await _sinhVienService.PutSinhVienByID(id, sv);
-            if(result== "NotFound()")
+            var check = _sinhVienService.CheckSaveSinhVien(sv);
+            if (!check.IsValid)
+            {
+                return BadRequest(check.Errors);
+            }
+        
+            var result=await _sinhVienService.PutSinhVienByID(id, sv);
+            
+
+            if (result== "NotFound()")
             {
                 return NotFound();
             }
@@ -81,11 +92,11 @@ namespace TrainModule2_New.Controllers
                 {
                 return BadRequest();
             }
-            else
+            else if(result== "NoContent()")
             {
                 return NoContent();
             }
-           
+            return BadRequest();
         }
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteStudentByID(int id)
@@ -100,6 +111,12 @@ namespace TrainModule2_New.Controllers
             [HttpPatch("{id}")]
             public async Task<ActionResult<SinhVienDTO>> PatchStudentByID(int id,[FromBody] JsonPatchDocument<SinhVienDTO> Jdoc)
             {
+                var check=_sinhVienService.CheckPatchSinhVien(Jdoc);
+            if (!check.IsValid)
+            {
+                return BadRequest(check.Errors);
+            }
+
                 if (id.ToString().Length == 0)
                 {
                     return NotFound();
