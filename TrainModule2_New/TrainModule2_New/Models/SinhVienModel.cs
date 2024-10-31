@@ -8,7 +8,7 @@ using Data.EntityModels;
 
 using AutoMapper;
 using TrainModule2_New.DTOs;
-using SINHVIEN = Data.EntityModels.Sinhvien;
+
 
 namespace TrainModule2_New.Models
 {
@@ -21,6 +21,8 @@ namespace TrainModule2_New.Models
         Task<string> PutSinhVienByID(string id, SinhVienDTO sv);
         Task<bool> deleteSinhVienByID(int id);
         Task<bool> patchSinhVienByID(int id, JsonPatchDocument<SinhVienDTO> jdoc);
+        Task<List<SinhVienDTO>> getWithPaging(List<SinhVienDTO> svasync,int take, int skip);
+        Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode);
     }
     public class SinhVienModel:ISinhVienModel
     {
@@ -34,8 +36,17 @@ namespace TrainModule2_New.Models
         public async Task<List<SinhVienDTO>> getall()
         {
             var svs= await _context.Sinhviens.ToListAsync();
-            var svsDTO=_map.Map<List<SinhVienDTO>>(svs);
+            var svsDTO = _map.Map<List<SinhVienDTO>>(svs);
             return svsDTO;
+        }
+        public async Task<List<SinhVienDTO>> getWithPaging(List<SinhVienDTO> svasync, int take ,int skip)
+        {
+       
+            var sv = svasync.OrderBy(sv => int.Parse(sv.masv))
+                .Skip(skip)
+                .Take(take);
+            var svdto=_map.Map<List<SinhVienDTO>>(sv);
+            return svdto;
         }
         public async Task<SinhVienDTO> getSinhVienByID(int id)
         {
@@ -53,7 +64,7 @@ namespace TrainModule2_New.Models
             {
                 return null;
             }
-            var svef=_map.Map<SINHVIEN>(sv);
+            var svef=_map.Map<Sinhvien>(sv);
             await _context.Sinhviens.AddAsync(svef);
             await _context.SaveChangesAsync();
             return sv;
@@ -65,8 +76,9 @@ namespace TrainModule2_New.Models
                 return null;
             }
             else
-            {
-                var dssv = await _context.Sinhviens.Where(sv => sv.Malop == classcode).ToListAsync();
+            {   
+             
+                var dssv = await _context.Sinhviens.Where(sv=>sv.Malop==classcode).ToListAsync();
                 var dssvDTO=_map.Map<List<SinhVienDTO>>(dssv);
                 return dssvDTO;
             }
@@ -85,16 +97,21 @@ namespace TrainModule2_New.Models
                 }
                 else
                 {
-                    var sv1=_map.Map<SINHVIEN>(sv);
-                    _context.Entry(sv1).State = EntityState.Modified;
-                    try
+                   
+                    var svdata = await _context.Sinhviens.Where(svv => svv.Masv == id).FirstOrDefaultAsync();
+                    if (svdata != null)
                     {
-                      
-                        await _context.SaveChangesAsync();
-                    }
-                    catch (Exception ex)
-                    {
-                        return "NotFound()";
+                        var sv1 = _map.Map(sv, svdata);
+                        _context.Entry(svdata).State = EntityState.Modified;
+                        try
+                        {
+
+                            await _context.SaveChangesAsync();
+                        }
+                        catch (Exception ex)
+                        {
+                            return "NotFound()";
+                        }
                     }
                     return "NoContent()";
                 }
@@ -125,6 +142,19 @@ namespace TrainModule2_New.Models
                 return true;
             }
             return false;
+        }
+        public async Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode)
+        {
+            var classcode = _context.Giaoviens.Where(gv => gv.Magv == teacherCode).Select(sv => sv.Malop).FirstOrDefault();
+            if(classcode == null)
+            {
+                return null;
+            }
+            else
+            {
+                var list=await GetSinhVienByClassCode(classcode);
+                return list;
+            }
         }
     }
 }

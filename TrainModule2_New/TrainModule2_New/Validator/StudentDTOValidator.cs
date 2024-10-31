@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Azure.Core;
+using FluentValidation;
 
 using TrainModule2_New.DTOs;
 namespace TrainModule2_New.Validator
@@ -21,8 +22,10 @@ namespace TrainModule2_New.Validator
             //.Must( LessThanOrEqualNamSinh).WithMessage("Age is invalid");
             RuleFor(sv => sv.tensv)
                 .NotEmpty().WithMessage("Studen name is not blank");
-           
-               
+            RuleFor(sv => sv.ngaysinh)
+                .Matches(@"^\d{2}-\d{2}-\d{4}$").WithMessage("birthday is invalid");
+
+
         }
         //public bool GreaterThanOrEqualNamSinh(string namsinh)
         //{

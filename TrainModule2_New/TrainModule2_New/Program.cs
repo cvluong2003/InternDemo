@@ -50,6 +50,14 @@ builder.Services.AddAuthentication(options =>
       };
   });
 builder.Services.AddLogging(login => { login.AddConsole(); });
+//builder.Services.AddHttpClient("https://localhost:7220").ConfigurePrimaryHttpMessageHandler(_ => new HttpClientHandler
+//{
+//    ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; }
+//});
+builder.Services.AddHttpClient("client").ConfigurePrimaryHttpMessageHandler(_ => new HttpClientHandler
+{
+    ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true // Không kiểm tra chứng chỉ
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

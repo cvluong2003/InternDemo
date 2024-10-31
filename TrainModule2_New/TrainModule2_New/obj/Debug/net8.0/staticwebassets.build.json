@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "q35UbTp0N3uCge22rnsrVuqmYdRyMV/k+4HH13mNol0=",
+  "Hash": "AudD3R4iqpfkAIU4ulCLcHz7Zoa5XkNo/Nh1waMj51s=",
   "Source": "TrainModule2_New",
   "BasePath": "_content/TrainModule2_New",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\Data.csproj",
+      "Identity": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\Data.csproj",
       "Version": 2,
       "Source": "Data",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

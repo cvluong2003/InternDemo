@@ -2,7 +2,8 @@
 using Data.EntityModels;
 using Microsoft.EntityFrameworkCore;
 using TrainModule2_New.DTOs;
-
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 namespace TrainModule2_New.Models
 {
     public interface IGiaoVienModel
@@ -10,6 +11,10 @@ namespace TrainModule2_New.Models
         Task<string> loggin(string ma);
         Task<bool> Register(GiaoVienDTO dto);
         Task<string> changePassWord(string ma, string new_pass);
+        Task<bool> checkTeacherCode(string teacherCode);
+        Task<bool> VerifyTeacherCodeFromToken(string code);
+        Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode);
+        Task<List<SinhVienDTO>> GetStudentByClassCode(string teacherCode);
     }
     public class GiaoVienModel:IGiaoVienModel
     {
@@ -77,6 +82,51 @@ namespace TrainModule2_New.Models
                 {
                     return ex.Message ;
                 }
+            }
+        }
+        public async Task<bool> checkTeacherCode(string teacherCode)
+        {
+            var lst =await _context.Giaoviens.Where(gv => gv.Magv == teacherCode).FirstOrDefaultAsync() ;
+            if(lst==null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public async Task<bool> VerifyTeacherCodeFromToken(string code)
+        {
+            var magv =await _context.Giaoviens.Where(gv=>gv.Magv == code).FirstOrDefaultAsync();
+            if(magv==null)
+                return false;
+            return true;
+        }
+        public async Task<List<SinhVienDTO>> GetStudentByClassCode(string classcode)
+        {
+            if (classcode.Length == 0)
+            {
+                return null;
+            }
+            else
+            {
+                var dssv = await _context.Sinhviens.Where(sv => sv.Malop == classcode).ToListAsync();
+                var dssvDTO = _imap.Map<List<SinhVienDTO>>(dssv);
+                return dssvDTO;
+            }
+        }
+        public async Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode)
+        {
+            var classcode = _context.Giaoviens.Where(gv => gv.Magv == teacherCode).Select(sv => sv.Malop).FirstOrDefault();
+            if (classcode == null)
+            {
+                return null;
+            }
+            else
+            {
+                var list = await GetStudentByClassCode(classcode);
+                return list;
             }
         }
     }

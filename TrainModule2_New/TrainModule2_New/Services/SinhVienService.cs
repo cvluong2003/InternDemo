@@ -18,6 +18,9 @@ namespace TrainModule2_New.Services
         Task<bool> deleteSinhVienByID(int id);
         Task<bool> patchSinhVienByID(int id, JsonPatchDocument<SinhVienDTO> jdoc);
         ValidationResult CheckPatchSinhVien(JsonPatchDocument<SinhVienDTO> sv);
+        Task<List<SinhVienDTO>> getWithPaging(List<SinhVienDTO> svs,int rowperpage, int page);
+         Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode);
+
     }
     public class SinhVienService:ISinhVienService
     {
@@ -30,6 +33,27 @@ namespace TrainModule2_New.Services
         public async Task<List<SinhVienDTO>> getallSinhVien()
         {
             return await _model.getall();
+        }
+        public async Task<List<SinhVienDTO>> getWithPaging(List<SinhVienDTO> svs,int rowperpage, int page)
+        {
+           
+            int allrow=svs.Count;
+            int take = 0;
+            if(page*rowperpage-allrow>rowperpage)
+            {
+                return new List<SinhVienDTO>();
+            }
+            if(page*rowperpage-allrow>0)
+            {
+                take = allrow - ((page - 1) * rowperpage);
+            }
+            else
+            {
+                take = rowperpage;
+            }
+           
+            int skip = (page - 1) * rowperpage;
+            return await _model.getWithPaging(svs,take, skip);  
         }
         public async Task<SinhVienDTO> getSinhVienByID(int id)
         {
@@ -72,6 +96,10 @@ namespace TrainModule2_New.Services
         public async Task<bool> patchSinhVienByID(int id, JsonPatchDocument<SinhVienDTO> jdoc)
         {
             return await _model.patchSinhVienByID(id,jdoc);
+        }
+        public async Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode)
+        {
+            return await _model.getStudentByTeacherCode(teacherCode);
         }
     }
 }

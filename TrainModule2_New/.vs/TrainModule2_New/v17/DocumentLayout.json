@@ -1,153 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\",
+  "WorkspaceRootPath": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\authorization\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\authorization\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\middleware\\checknamsinhmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\middleware\\checknamsinhmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\services\\giaovienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\giaovienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\services\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\controllers\\giaoviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\controllers\\giaoviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\models\\giaovienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\giaovienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\dtos\\giaoviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\giaoviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\middleware\\requestlogginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\middleware\\requestlogginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\middleware\\checkserectcodemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\middleware\\checkserectcodemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\middleware\\checkserectcodemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\controllers\\lopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\controllers\\lopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\middleware\\requestlogginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\middleware\\requestlogginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\models\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\middleware\\checknamsinhmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\middleware\\checknamsinhmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\controllers\\giaoviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\controllers\\giaoviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\services\\giaovienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\giaovienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\dtos\\sinhviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\sinhviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\models\\giaovienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\giaovienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\validator\\studentdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\models\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\validator\\studentdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\validator\\studentdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\filters\\tokenrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\filters\\tokenrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\services\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\dtos\\monhocdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\giaoviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\giaoviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\sinhviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\sinhviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\monhocdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\monhocdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\trainmodule2_new\\dtos\\ketquadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\lopdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\lopdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\ketquadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\ketquadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\dn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\dn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AD1C662-60A5-4284-8341-D942823E3887}|GUI\\GUI.csproj|solutionrelative:gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\trainmodule2_new.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\trainmodule2_new.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\dbqlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\dbqlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\homeform\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\homeform\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\homeform\\homeform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB93D7EF-86DC-4B61-9A8C-34D3607F0982}|HomeForm\\HomeForm.csproj|solutionrelative:homeform\\homeform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\services\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\trainmodule2_new\\filters\\tokenrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2736A9-9B83-48F7-A7DC-BE13D0468C33}|TrainModule2_New\\TrainModule2_New.csproj|solutionrelative:trainmodule2_new\\filters\\tokenrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luong.cao\\AppData\\Local\\Temp\\qznmhqtp..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\entitymodels\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\entitymodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\entitymodels\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\intern\\module2\\trainmodule2_new\\data\\entitymodels\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\entitymodels\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\entitymodels\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\entitymodels\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|c:\\users\\luong.cao\\source\\repos\\trainmodule2_new\\data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCAD5E94-B2FB-4408-9E17-475DBC065809}|Data\\Data.csproj|solutionrelative:data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.GIAOVIEN.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -156,12 +168,10 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.SINHVIEN.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrainModule2_New\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.KETQUA.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -174,131 +184,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenModel.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Authorization\\TokenModel.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Authorization\\TokenModel.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Authorization\\TokenModel.cs",
-              "RelativeToolTip": "TrainModule2_New\\Authorization\\TokenModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:54:30.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\TokenService.cs",
-              "RelativeToolTip": "TrainModule2_New\\Services\\TokenService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T07:25:43.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DN.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.cs",
-              "RelativeDocumentMoniker": "GUI\\DN.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.cs",
-              "RelativeToolTip": "GUI\\DN.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDYAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:28:24.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "GiaoVienService.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\GiaoVienService.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\GiaoVienService.cs",
               "RelativeDocumentMoniker": "TrainModule2_New\\Services\\GiaoVienService.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\GiaoVienService.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\GiaoVienService.cs",
               "RelativeToolTip": "TrainModule2_New\\Services\\GiaoVienService.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAnwGgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T08:04:05.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\App.config",
-              "RelativeDocumentMoniker": "GUI\\App.config",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\App.config",
-              "RelativeToolTip": "GUI\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-17T02:15:25.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SinhVienController.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\SinhVienController.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Controllers\\SinhVienController.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\SinhVienController.cs",
-              "RelativeToolTip": "TrainModule2_New\\Controllers\\SinhVienController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAIA9wB8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:24:03.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenModel.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\TokenModel.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\TokenModel.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\TokenModel.cs",
-              "RelativeToolTip": "TrainModule2_New\\Models\\TokenModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T07:25:27.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Program.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Program.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Program.cs",
-              "RelativeToolTip": "TrainModule2_New\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAArwBYAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:00:40.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DN.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.cs",
-              "RelativeDocumentMoniker": "GUI\\DN.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.cs [Design]",
-              "RelativeToolTip": "GUI\\DN.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:38:15.19Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GiaoVienController.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Controllers\\GiaoVienController.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Controllers\\GiaoVienController.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Controllers\\GiaoVienController.cs",
+              "RelativeToolTip": "TrainModule2_New\\Controllers\\GiaoVienController.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAADwv4QAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:59:41.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CheckNamSinhMiddleWare.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
               "RelativeDocumentMoniker": "TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
               "RelativeToolTip": "TrainModule2_New\\Middleware\\CheckNamSinhMiddleWare.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,28 +227,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SinhVienService.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\SinhVienService.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Services\\SinhVienService.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Services\\SinhVienService.cs",
-              "RelativeToolTip": "TrainModule2_New\\Services\\SinhVienService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvzYAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Program.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Program.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Program.cs",
+              "RelativeToolTip": "TrainModule2_New\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAArwBgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:04:06.902Z",
+              "WhenOpened": "2024-10-09T10:00:40.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HOME.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.cs",
-              "RelativeDocumentMoniker": "GUI\\HOME.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.cs",
-              "RelativeToolTip": "GUI\\HOME.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAALAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RequestLogginMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
+              "RelativeToolTip": "TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:28:45.43Z",
+              "WhenOpened": "2024-10-10T04:23:24.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckSerectCodeMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
+              "RelativeToolTip": "TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T02:15:01.011Z",
               "EditorCaption": ""
             },
             {
@@ -341,156 +274,353 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HOME.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.cs",
-              "RelativeDocumentMoniker": "GUI\\HOME.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.cs [Design]",
-              "RelativeToolTip": "GUI\\HOME.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "TrainModule2_New\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:42:16.745Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-10T03:50:26.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiaoVienModel.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\GiaoVienModel.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\GiaoVienModel.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\GiaoVienModel.cs",
+              "RelativeToolTip": "TrainModule2_New\\Models\\GiaoVienModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA9wBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:11:40.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Validator\\StudentDTOValidator.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Validator\\StudentDTOValidator.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Validator\\StudentDTOValidator.cs",
+              "RelativeToolTip": "TrainModule2_New\\Validator\\StudentDTOValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:22:39.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SinhVienModel.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\SinhVienModel.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\SinhVienModel.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\SinhVienModel.cs",
+              "RelativeToolTip": "TrainModule2_New\\Models\\SinhVienModel.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:06:21.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Controllers\\SinhVienController.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "TrainModule2_New\\Controllers\\SinhVienController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T02:24:03.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SinhVienService.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\SinhVienService.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Services\\SinhVienService.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\SinhVienService.cs",
+              "RelativeToolTip": "TrainModule2_New\\Services\\SinhVienService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:04:06.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GiaoVienDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:33:50.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "GiaoVienController.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\GiaoVienController.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Controllers\\GiaoVienController.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\GiaoVienController.cs",
-              "RelativeToolTip": "TrainModule2_New\\Controllers\\GiaoVienController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAjwCoAAAARAAAAAAAAAA==",
+              "Title": "SinhVienDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\SinhVienDTO.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\SinhVienDTO.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\SinhVienDTO.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\SinhVienDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:59:41.176Z",
+              "WhenOpened": "2024-10-11T09:25:32.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonHocDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\MonHocDTO.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\MonHocDTO.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\MonHocDTO.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\MonHocDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:33:52.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "GiaoVienDTO.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
-              "RelativeToolTip": "TrainModule2_New\\DTOs\\GiaoVienDTO.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Title": "LopDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\LopDTO.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\LopDTO.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\LopDTO.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\LopDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T03:33:50.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GiaoVienModel.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\GiaoVienModel.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\GiaoVienModel.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\GiaoVienModel.cs",
-              "RelativeToolTip": "TrainModule2_New\\Models\\GiaoVienModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIA6wCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:11:40.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ChangePassWordRequest.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
-              "RelativeToolTip": "TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T08:33:53.803Z"
+              "WhenOpened": "2024-10-31T02:49:02.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "RequestLogginMiddleWare.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
-              "RelativeToolTip": "TrainModule2_New\\Middleware\\RequestLogginMiddleWare.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAMwBMAAAAMAAAAAAAAAA==",
+              "Title": "ChangePassWordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\ChangePassWordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:23:24.362Z"
+              "WhenOpened": "2024-10-16T08:33:53.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KetQuaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\KetQuaDTO.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\KetQuaDTO.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\DTOs\\KetQuaDTO.cs",
+              "RelativeToolTip": "TrainModule2_New\\DTOs\\KetQuaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:33:51.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "CheckSerectCodeMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
-              "RelativeToolTip": "TrainModule2_New\\Middleware\\CheckSerectCodeMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:15:01.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SinhVienModel.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\SinhVienModel.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\SinhVienModel.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Models\\SinhVienModel.cs",
-              "RelativeToolTip": "TrainModule2_New\\Models\\SinhVienModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA5wCEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:06:21.288Z"
+              "Title": "TrainModule2_New.csproj",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\TrainModule2_New.csproj",
+              "RelativeDocumentMoniker": "TrainModule2_New\\TrainModule2_New.csproj",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\TrainModule2_New.csproj",
+              "RelativeToolTip": "TrainModule2_New\\TrainModule2_New.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T04:06:24.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "LopController.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\LopController.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Controllers\\LopController.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Controllers\\LopController.cs",
-              "RelativeToolTip": "TrainModule2_New\\Controllers\\LopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "DBQLSV.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
+              "RelativeDocumentMoniker": "Data\\EntityModels\\DBQLSV.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
+              "RelativeToolTip": "Data\\EntityModels\\DBQLSV.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:00:05.982Z"
+              "WhenOpened": "2024-10-25T10:03:45.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Giaovien.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\Giaovien.cs",
+              "RelativeDocumentMoniker": "Data\\EntityModels\\Giaovien.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\Giaovien.cs",
+              "RelativeToolTip": "Data\\EntityModels\\Giaovien.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:55:20.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "TrainModule2_New\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvwgAAAAnAAAAAAAAAA==",
+              "Title": "KETQUA.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\KETQUA.cs",
+              "RelativeDocumentMoniker": "Data\\EntityModels\\KETQUA.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\KETQUA.cs",
+              "RelativeToolTip": "Data\\EntityModels\\KETQUA.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T03:50:26.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "StudentDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Validator\\StudentDTOValidator.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Validator\\StudentDTOValidator.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Validator\\StudentDTOValidator.cs",
-              "RelativeToolTip": "TrainModule2_New\\Validator\\StudentDTOValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T07:22:39.351Z"
+              "WhenOpened": "2024-10-03T02:35:46.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "SinhVienDTO.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\SinhVienDTO.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\SinhVienDTO.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\SinhVienDTO.cs",
-              "RelativeToolTip": "TrainModule2_New\\DTOs\\SinhVienDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.cs",
+              "RelativeDocumentMoniker": "HomeForm\\Home.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.cs",
+              "RelativeToolTip": "HomeForm\\Home.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T09:25:32.883Z"
+              "WhenOpened": "2024-10-23T02:52:02.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "UserControl2.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.cs",
+              "RelativeDocumentMoniker": "HomeForm\\UserControl2.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.cs",
+              "RelativeToolTip": "HomeForm\\UserControl2.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T03:50:07.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenModel.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\TokenModel.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Models\\TokenModel.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Models\\TokenModel.cs",
+              "RelativeToolTip": "TrainModule2_New\\Models\\TokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:25:27.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Program.cs",
+              "RelativeDocumentMoniker": "HomeForm\\Program.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Program.cs",
+              "RelativeToolTip": "HomeForm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:14:45.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserControl2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.Designer.cs",
+              "RelativeDocumentMoniker": "HomeForm\\UserControl2.Designer.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.Designer.cs",
+              "RelativeToolTip": "HomeForm\\UserControl2.Designer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:58:04.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "HomeForm\\Home.Designer.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.Designer.cs",
+              "RelativeToolTip": "HomeForm\\Home.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:22:42.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SINHVIEN.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\SINHVIEN.cs",
+              "RelativeDocumentMoniker": "Data\\EntityModels\\SINHVIEN.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\SINHVIEN.cs",
+              "RelativeToolTip": "Data\\EntityModels\\SINHVIEN.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:32:20.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\Program.cs",
+              "RelativeDocumentMoniker": "Data\\Program.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\Program.cs",
+              "RelativeToolTip": "Data\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:32:29.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeForm.csproj",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\HomeForm.csproj",
+              "RelativeDocumentMoniker": "HomeForm\\HomeForm.csproj",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\HomeForm.csproj",
+              "RelativeToolTip": "HomeForm\\HomeForm.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T06:08:30.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TokenBlackList.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\TokenBlackList.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Services\\TokenBlackList.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\TokenBlackList.cs",
+              "RelativeToolTip": "TrainModule2_New\\Services\\TokenBlackList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:16:22.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Services\\TokenService.cs",
+              "RelativeToolTip": "TrainModule2_New\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:25:43.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "TokenRequired.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Filters\\TokenRequired.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Filters\\TokenRequired.cs",
               "RelativeDocumentMoniker": "TrainModule2_New\\Filters\\TokenRequired.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Filters\\TokenRequired.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\Filters\\TokenRequired.cs",
               "RelativeToolTip": "TrainModule2_New\\Filters\\TokenRequired.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -498,31 +628,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MonHocDTO.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\MonHocDTO.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\MonHocDTO.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\MonHocDTO.cs",
-              "RelativeToolTip": "TrainModule2_New\\DTOs\\MonHocDTO.cs",
+              "DocumentIndex": 35,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TrainModule2_New\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\TrainModule2_New\\WeatherForecast.cs",
+              "RelativeToolTip": "TrainModule2_New\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T03:33:52.526Z"
+              "WhenOpened": "2024-10-22T04:03:12.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "KetQuaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\KetQuaDTO.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\DTOs\\KetQuaDTO.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\DTOs\\KetQuaDTO.cs",
-              "RelativeToolTip": "TrainModule2_New\\DTOs\\KetQuaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T03:33:51.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "qznmhqtp..sql",
               "DocumentMoniker": "C:\\Users\\luong.cao\\AppData\\Local\\Temp\\qznmhqtp..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\qznmhqtp..sql",
@@ -533,11 +651,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "LOP.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\LOP.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\LOP.cs",
               "RelativeDocumentMoniker": "Data\\EntityModels\\LOP.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\LOP.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\LOP.cs",
               "RelativeToolTip": "Data\\EntityModels\\LOP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -545,23 +663,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SINHVIEN.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\SINHVIEN.cs",
-              "RelativeDocumentMoniker": "Data\\EntityModels\\SINHVIEN.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\SINHVIEN.cs",
-              "RelativeToolTip": "Data\\EntityModels\\SINHVIEN.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBQwBMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T02:32:20.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "MONHOC.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\MONHOC.cs",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\MONHOC.cs",
               "RelativeDocumentMoniker": "Data\\EntityModels\\MONHOC.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\MONHOC.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\Data\\EntityModels\\MONHOC.cs",
               "RelativeToolTip": "Data\\EntityModels\\MONHOC.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -569,43 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "KETQUA.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\KETQUA.cs",
-              "RelativeDocumentMoniker": "Data\\EntityModels\\KETQUA.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\KETQUA.cs",
-              "RelativeToolTip": "Data\\EntityModels\\KETQUA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T02:35:46.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Giaovien.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\Giaovien.cs",
-              "RelativeDocumentMoniker": "Data\\EntityModels\\Giaovien.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\EntityModels\\Giaovien.cs",
-              "RelativeToolTip": "Data\\EntityModels\\Giaovien.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAMwA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T08:55:20.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\Program.cs",
-              "RelativeDocumentMoniker": "Data\\Program.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\Data\\Program.cs",
-              "RelativeToolTip": "Data\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T02:32:29.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "dbo.GIAOVIEN.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.GIAOVIEN.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.GIAOVIEN.sql",
@@ -614,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "dbo.SINHVIEN.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.SINHVIEN.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.SINHVIEN.sql",
@@ -623,29 +693,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "DBQLSV.cs",
               "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\EntityModels\\DBQLSV.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs",
               "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs",
-              "RelativeToolTip": "TrainModule2_New\\EntityModels\\DBQLSV.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\TrainModule2_New\\TrainModule2_New\\EntityModels\\DBQLSV.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T08:44:32.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "DBQLSV.cs",
               "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
-              "RelativeDocumentMoniker": "TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
               "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
-              "RelativeToolTip": "TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\TrainModule2_New\\TrainModule2_New\\Data\\EntityModels\\DBQLSV.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T02:30:06.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "dbo.KETQUA.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.KETQUA.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/HCM2_000027/QLSV/True/SqlTable/dbo.KETQUA.sql",
@@ -654,41 +724,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.cs",
+              "RelativeDocumentMoniker": "HomeForm\\Home.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\Home.cs [Design]",
+              "RelativeToolTip": "HomeForm\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T02:51:59.776Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Title": "UserControl2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.cs",
+              "RelativeDocumentMoniker": "HomeForm\\UserControl2.cs",
+              "ToolTip": "C:\\Users\\luong.cao\\Intern\\Module2\\TrainModule2_New\\HomeForm\\UserControl2.cs [Design]",
+              "RelativeToolTip": "HomeForm\\UserControl2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:30:04.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DN.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\DN.Designer.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\DN.Designer.cs",
-              "RelativeToolTip": "GUI\\DN.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:28:36.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HOME.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\HOME.Designer.cs",
-              "ToolTip": "C:\\Users\\luong.cao\\source\\repos\\TrainModule2_New\\GUI\\HOME.Designer.cs",
-              "RelativeToolTip": "GUI\\HOME.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:29:09.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T03:43:11.937Z"
             }
           ]
         }

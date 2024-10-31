@@ -13,6 +13,9 @@ namespace TrainModule2_New.Services
         Task<bool> loggin(string ma,string pass);
         Task<bool> Register(GiaoVienDTO dto);
         Task<string> changePassWord(string ma, string old_pass, string new_pass);
+        Task<bool> checkTeacherCode(string teacherCode);
+        Task<bool> VerifyTeacherCodeFromToken(string code);
+        Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode);
     }
 
     public class GiaoVienService:IGiaoVienService
@@ -25,18 +28,7 @@ namespace TrainModule2_New.Services
 
         public async Task<bool> loggin(string ma,string pass)
         {
-            //var Jobject=JObject.FromObject(doc);
-            //string ma = string.Empty;
-            //string pass = string.Empty;
-            //if (Jobject["magv"] != null)
-            //{
-            //   ma = Jobject["magv"].ToString();
-            //}
-
-            //if (Jobject["pass"] != null)
-            //{
-            //   pass = Jobject["pass"].ToString();
-            //}
+            
             if (verifyPassword(pass,await _model.loggin(ma))) {
                 return true;
             }
@@ -111,5 +103,21 @@ namespace TrainModule2_New.Services
                 return "400";
             }
         }
-    }
+        public async Task<bool> checkTeacherCode(string teacherCode)
+        {
+            return await _model.checkTeacherCode(teacherCode);
+        }
+        //public async Task<bool> updateStudentInTeacherHimSelf(string teachercode)
+        //  {
+
+        //  }
+       public async Task<bool> VerifyTeacherCodeFromToken(string code)
+        {
+            return await _model.VerifyTeacherCodeFromToken(code);
+        }
+       public async Task<List<SinhVienDTO>> getStudentByTeacherCode(string teacherCode)
+        {
+            return await _model.getStudentByTeacherCode(teacherCode);
+        }
+    }  
 }

@@ -16,19 +16,47 @@ namespace TrainModule2_New.Controllers
     [ApiController]
     public class sinhvienController : ControllerBase
     {
-        private readonly DBQLSV _context = new DBQLSV();
+        //private readonly DBQLSV _context;
         private readonly ISinhVienService _sinhVienService;
-        public sinhvienController(ISinhVienService sinhVienService) {
-            //_context = ctx;
+        private readonly IGiaoVienService _giaoVienService;
+        public sinhvienController(ISinhVienService sinhVienService,IGiaoVienService giaoVienService) {
+           
             _sinhVienService = sinhVienService;
+            _giaoVienService = giaoVienService;
         }
         [HttpGet]
-        public async Task<ActionResult<SinhVienDTO>> GetAll()
+        public async Task<ActionResult<IEnumerable<SinhVienDTO>>> GetAll([FromHeader] int rowperpage, int page)
         {
-            //var dssv =await _sinhVienService.getallSinhVien();
-            var dssv = await _context.Sinhviens.ToListAsync();
-            return Ok(dssv);
+           
+            if (rowperpage <= 0 || rowperpage == null)
+            {
+                return BadRequest("Rowperpage undefied");
+            }
+            else
+            {
+                if(page<=0)
+                {
+                    var dssv = await _sinhVienService.getallSinhVien();
+                    return Ok(dssv);
+                }
+                else
+                {
+                    var allsv = await _sinhVienService.getallSinhVien();
+                    var dssv = await _sinhVienService.getWithPaging(allsv,rowperpage, page);
+                    if (dssv.Count > 0)
+                    {
+                        return Ok(dssv);
+                    }
+                    else
+                    {
+                        return Content("Page is invalid");
+                    }
+                }
+            }
+          
+           
         }
+     
         [HttpGet("{id}")]
         public async Task<ActionResult<SinhVienDTO>> GetSinhVienByID(int id)
         {
@@ -45,6 +73,7 @@ namespace TrainModule2_New.Controllers
         public async Task<ActionResult<SinhVienDTO>> CreateNewSV(SinhVienDTO sv)
         {
             var check = _sinhVienService.CheckSaveSinhVien(sv);
+          
             if (!check.IsValid)
             {
                 return BadRequest(check.Errors);
@@ -58,10 +87,26 @@ namespace TrainModule2_New.Controllers
 
         }
         [HttpGet("class")]
-        public async Task<ActionResult<SinhVienDTO>> GetStudentbyClassCode([FromQuery] string classcode)
+        public async Task<ActionResult<SinhVienDTO>> GetStudentbyClassCode([FromQuery] string classcode, [FromQuery] int page, [FromHeader] int rowperpage)
         {
             var dssv = await _sinhVienService.getSinhVienByClassCode(classcode);
-            if (dssv.Count == 0 )
+            var lst = await _sinhVienService.getWithPaging(dssv, rowperpage, page);
+            if(page==null)
+            {
+                return Ok(dssv);
+            }
+            else
+            {
+                if(lst.Count()>0)
+                {
+                    return Ok(lst);
+                }
+                else
+                {
+                    return Content("Page Number is Invalid");
+                }
+            }
+            if (dssv.Count == 0)
             {
                 return NotFound();
             }
@@ -70,9 +115,34 @@ namespace TrainModule2_New.Controllers
                 return Ok(dssv);
             }
         }
+        [HttpGet("teacher/{id}")]
+        public async Task<ActionResult<List<SinhVienDTO>>> getStudentByTeachercode( string id)
+        {
+            if(id == null)
+            {
+                return BadRequest("Invalid Teachercode");
+            }
+            
+            else
+            {
+                if(!await _giaoVienService.checkTeacherCode(id))
+                {
+                    return NotFound();
+                }
+                var lst=await _sinhVienService.getStudentByTeacherCode(id);
+                if(lst==null)
+                {
+                    return new List<SinhVienDTO>();
+                }
+                else
+                {
+                    return Ok(lst);
+                }
+            }
+        }
         [HttpPut("{id}")]
-        //[TokenRequired]
-        //[Authorize]
+        [TokenRequired]
+        [Authorize]
         public async Task<ActionResult<SinhVienDTO>> UpdateStudentByID(string id, [FromBody] SinhVienDTO sv)
         {
             var check = _sinhVienService.CheckSaveSinhVien(sv);
@@ -99,6 +169,7 @@ namespace TrainModule2_New.Controllers
             return BadRequest();
         }
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult> DeleteStudentByID(int id)
         {
             var result =await _sinhVienService.deleteSinhVienByID(id);
